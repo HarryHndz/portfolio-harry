@@ -6,7 +6,7 @@ export default function Projects() {
   const {language} = useLanguage()
   const listDetails = language === 'Español' ? projectsSpanish : projectsEnglish
 	return (
-		<div className="container-subdata" id="projects">
+		<div className="container-subdata" id="projects" tabIndex={0}>
 			<h2 className="secondary-title">{language === 'Español' ? 'Proyectos' : 'Projects'}</h2>
       <div className="list-cards">
         { listDetails.map((p)=>(

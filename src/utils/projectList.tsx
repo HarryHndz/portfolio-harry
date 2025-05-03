@@ -11,7 +11,7 @@ import { ReactLogo } from "../assets/react"
 import { Css3 } from "../assets/stylesheet"
 import { Typescript } from "../assets/typescript"
 
-export const projectsSpanish:IPropsCard[] = [
+export const projectsSpanish:Omit<IPropsCard,'language'>[] = [
   {
     key:1,
     title:'Ecommerce',
@@ -53,7 +53,7 @@ export const projectsSpanish:IPropsCard[] = [
   },
   {
    key:4,
-    title:'Aplicación de calidad del sueño',
+    title:'Calidad del sueño',
     link:'https://github.com/Edd0720/backend-sleep-samsung',
     link2:'https://github.com/HarryHndz/app-sleep-samsung',
     description:'Proyecto para calcular la calidad del sueño de una persona,utilizando un modelo de aprendizaje  y el desarrollo de una aplicación movil para la interfaz grafica.',
@@ -68,7 +68,7 @@ export const projectsSpanish:IPropsCard[] = [
   },
 ] 
 
-export const projectsEnglish: IPropsCard[] = [
+export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
   {
     key: 1,
     title: 'Ecommerce',
@@ -116,11 +116,11 @@ export const projectsEnglish: IPropsCard[] = [
   },
   {
     key: 4,
-    title: 'Sleep Quality App',
+    title: 'Sleep Quality',
     link: 'https://github.com/Edd0720/backend-sleep-samsung',
     link2: 'https://github.com/HarryHndz/app-sleep-samsung',
     description:
-      'Project to calculate a person’s sleep quality using a machine learning model and the development of a mobile application for the user interface.',
+      'Project to calculate a persons sleep quality using a machine learning model and the development of a mobile application for the user interface.',
     image:
       'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
     technologies: [

@@ -18,6 +18,7 @@ body{
   justify-content:space-around;
   position:sticky;
   top: 0;
+  z-index: 1;
   align-items: center;
   width: 100%;
   height: 80px;
@@ -76,8 +77,8 @@ button:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
-  height:auto;
+  height: 710px;
+  max-height:100vh;
   scroll-margin-top: 90px;
 
 }
@@ -125,6 +126,8 @@ button:hover {
   scroll-margin-top: 90px;
   padding-bottom: 10px;
 }
+
+
 .secondary-title{
   font-size: 50px;
   font-weight: 900;
@@ -207,7 +210,7 @@ button:hover {
 
 .card-projects img{
   width: 100%;
-  height: 40%;
+  height: 35%;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -215,12 +218,13 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 40%;
+  height: 35%;
   gap: 10px;
   padding: 0px 20px;
 }
+
 .container-tech{
-  height: 20%;
+  height: 15%;
   padding: 0px 10px;
 
 }

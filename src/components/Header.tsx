@@ -7,8 +7,8 @@ export const Header = () => {
     <nav className="header">
       <ul>
         <a className="links" href="#home">{language === 'Español' ? 'Perfil' : 'Profile'}</a>
-        <a className="links" href="#projects">{language === 'Español' ? 'Proyectos' : 'Projects'}</a>
         <a className="links" href="#experience">{language === 'Español' ? 'Experiencia' : 'Experience'}</a>
+        <a className="links" href="#projects">{language === 'Español' ? 'Proyectos' : 'Projects'}</a>
       </ul>
       <div>
         <Button 
