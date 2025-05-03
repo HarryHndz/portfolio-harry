@@ -38,7 +38,8 @@ export default function Skills() {
 				}
 			</p>
 			<LisCardTech
-				gap={'90px'} 
+				justify
+				gap={'50px'} 
 				technologies={technologiesUse} />
 		</div>
 	)

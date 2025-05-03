@@ -11,10 +11,10 @@ function App() {
     <LanguageProvider>
       <Header />
       <main className="main">
-       <Home />
-       <Experience />
-       <Skills />
-       <Projects />
+        <Home />
+        <Experience />
+        <Skills />
+        <Projects />
       </main>
     </LanguageProvider>
   )
