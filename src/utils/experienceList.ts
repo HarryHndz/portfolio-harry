@@ -12,8 +12,8 @@ export const jobsSpanish:IPropsCardJobs[] = [
 	{
 		id:2,
 		title:'PcGil',
-		rol:'Desarrollador FrontEnd',
-		description:'Realicé una estadía profesional en PcGil, donde me desempeñé como desarrollador Frontend, enfocándome en el diseño y desarrollo de una aplicación móvil de entregas a domicilio. El proyecto incluía funcionalidades como el registro de restaurantes, alta y gestión de menús, carrito de compras, integración con pasarelas de pago y monitoreo en tiempo real del estado de los pedidos.',
+		rol:'Desarrollador Backend',
+		description:'Realicé una estadía profesional en PcGil, donde me desempeñé como desarrollador backend, enfocándome en el desarrollo de una API Rest para pedir comida a domicilio; desarrollada en nodeJs, express y prisma orm.',
 		date:'16 de mayo 2024 - 16 de agosto 2024',
 		url:'pcgil_logo.png'
 	},
@@ -31,9 +31,9 @@ export const jobsEnglish: IPropsCardJobs[] = [
   {
     id: 2,
     title: 'PcGil',
-    rol: 'Frontend Developer',
+    rol: 'BackEnd Developer',
     description:
-      'I completed a professional internship at PcGil, where I worked as a Frontend Developer focusing on the design and development of a food delivery mobile application. The project included features such as restaurant registration, menu creation and management, shopping cart, payment gateway integration, and real-time order status tracking.',
+      'I completed a professional internship at PcGil, where I worked as a backend developer, focusing on developing a Rest API for food delivery, built in NodeJs, Express, and Prisma ORM.',
     date: 'May 16, 2024 - August 16, 2024',
     url: 'pcgil_logo.png',
   },

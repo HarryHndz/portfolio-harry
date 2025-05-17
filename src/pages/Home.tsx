@@ -19,8 +19,9 @@ export default function Home() {
       </div>
       <div className="buttons-socials">
           <Button 
-            text={language === 'Español' ?'Descargar cvv' : 'Download cvv'} 
-            iconRight={<DocumentCvv width={20} height={20} />} 
+            text={language === 'Español' ?'Descargar cv' : 'Download cv'} 
+            iconRight={<DocumentCvv width={20} height={20} />}
+            onClick={()=> window.location.href='/HarryHernandezAriasCV.docx.pdf'} 
           />
           <Button
             iconRight={<Linkedin width={20} height={20} />}

@@ -17,7 +17,7 @@ export const projectsSpanish:Omit<IPropsCard,'language'>[] = [
     title:'Ecommerce',
     link:'https://github.com/HarryHndz/laravel-ecommerce',
     description:'Sitio web ecommerce para la venta de productos; con un panel de administración para el alta de tiendas, productos, categorias y pedidos.',
-    image:'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
+    image:'/ecomercephp.png',
     technologies:[
       <Php width={40} height={40} />,
       <Laravel width={35} height={35} />, 
@@ -32,7 +32,7 @@ export const projectsSpanish:Omit<IPropsCard,'language'>[] = [
     title:'Front End transporte',
     link:'https://github.com/HarryHndz/proyecto-combis',
     description:'Sitio web para la visualización del transporte publico de la región en tiempo real, panel de admimistración para dueños y choferes.',
-    image:'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
+    image:'/frontCombis.png',
     technologies:[
       <Typescript width={35} height={35} />,
       <ReactLogo width={35} height={35} />,
@@ -75,8 +75,7 @@ export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
     link: 'https://github.com/HarryHndz/laravel-ecommerce',
     description:
       'Ecommerce website for selling products, including an admin panel to manage stores, products, categories, and orders.',
-    image:
-      'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
+    image:'/ecomercephp.png',
     technologies: [
       <Php width={40} height={40} />,
       <Laravel width={35} height={35} />,
@@ -92,8 +91,7 @@ export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
     link: 'https://github.com/HarryHndz/proyecto-combis',
     description:
       'Website for real-time public transport visualization in the region, with an admin panel for owners and drivers.',
-    image:
-      'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
+    image:'/frontCombis.png',
     technologies: [
       <Typescript width={35} height={35} />,
       <ReactLogo width={35} height={35} />,
