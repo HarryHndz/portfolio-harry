@@ -12,8 +12,8 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-        <Experience />
         <Skills />
+        <Experience />
         <Projects />
       </main>
     </LanguageProvider>

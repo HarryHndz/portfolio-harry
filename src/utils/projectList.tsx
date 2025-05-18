@@ -11,79 +11,85 @@ import { ReactLogo } from "../assets/react"
 import { Css3 } from "../assets/stylesheet"
 import { Typescript } from "../assets/typescript"
 
-export const projectsSpanish:Omit<IPropsCard,'language'>[] = [
+export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
   {
-    key:1,
-    title:'Ecommerce',
-    link:'https://github.com/HarryHndz/laravel-ecommerce',
-    description:'Sitio web ecommerce para la venta de productos; con un panel de administración para el alta de tiendas, productos, categorias y pedidos.',
-    image:'/ecomercephp.png',
-    technologies:[
-      <Php width={40} height={40} />,
-      <Laravel width={35} height={35} />, 
-      <Mysql width={35} height={35} />,
-      <Html5  width={35} height={35} />,
-      <Css3 width={35} height={35} />,
-      <Javascript width={35} height={35} />,
+    key: 1,
+    title: 'Ecommerce',
+    link: 'https://github.com/HarryHndz/laravel-ecommerce',
+    description:
+      'Sitio web ecommerce para la venta de productos; con un panel de administración para el alta de tiendas, productos, categorias y pedidos.',
+    image: '/ecomercephp.png',
+    technologies: [
+      { name: 'PHP', icon: <Php width={25} height={25} /> },
+      { name: 'Laravel', icon: <Laravel width={20} height={20} /> },
+      { name: 'MySQL', icon: <Mysql width={35} height={35} /> },
+      { name: 'HTML5', icon: <Html5 width={20} height={20} /> },
+      { name: 'CSS3', icon: <Css3 width={20} height={20} /> },
+      { name: 'JavaScript', icon: <Javascript width={20} height={20} /> }
     ]
   },
   {
-    key:2,
-    title:'Front End transporte',
-    link:'https://github.com/HarryHndz/proyecto-combis',
-    description:'Sitio web para la visualización del transporte publico de la región en tiempo real, panel de admimistración para dueños y choferes.',
-    image:'/frontCombis.png',
-    technologies:[
-      <Typescript width={35} height={35} />,
-      <ReactLogo width={35} height={35} />,
-      <Materialui width={35} height={35} />
+    key: 2,
+    title: 'Front End transporte',
+    link: 'https://github.com/HarryHndz/proyecto-combis',
+    description:
+      'Sitio web para la visualización del transporte publico de la región en tiempo real, panel de admimistración para dueños y choferes.',
+    image: '/frontCombis.png',
+    technologies: [
+      { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
+      { name: 'React', icon: <ReactLogo width={20} height={35} /> },
+      { name: 'Material UI', icon: <Materialui width={20} height={20} /> }
     ]
   },
   {
-    key:3,
-    title:'Visualización de sensores',
-    link:'https://github.com/HarryHndz/Samsung-iotpy',
-    description:'Sitio web para la visualización y recolección de datos de sensores de temperatura y humedad; con opción para generar graficas y reportes.',
-    image:'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
-    technologies:[
-      <Html5  width={35} height={35} />,
-      <Css3 width={35} height={35} />,
-      <Python width={35} height={35} />
+    key: 3,
+    title: 'Visualización de sensores',
+    link: 'https://github.com/HarryHndz/Samsung-iotpy',
+    description:
+      'Sitio web para la visualización y recolección de datos de sensores de temperatura y humedad; con opción para generar graficas y reportes.',
+    image:
+      'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
+    technologies: [
+      { name: 'HTML5', icon: <Html5 width={20} height={20} /> },
+      { name: 'CSS3', icon: <Css3 width={20} height={20} /> },
+      { name: 'Python', icon: <Python width={20} height={20} /> }
     ]
   },
   {
-   key:4,
-    title:'Calidad del sueño',
-    link:'https://github.com/Edd0720/backend-sleep-samsung',
-    link2:'https://github.com/HarryHndz/app-sleep-samsung',
-    description:'Proyecto para calcular la calidad del sueño de una persona,utilizando un modelo de aprendizaje  y el desarrollo de una aplicación movil para la interfaz grafica.',
-    image:'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
-    technologies:[
-      <Typescript width={35} height={35} />,
-      <ReactLogo width={35} height={35} />,
-      <Expo width={35} height={35} />,
-      <Python width={35} height={35} />,
-      <Mysql width={35} height={35} />
+    key: 4,
+    title: 'Calidad del sueño',
+    link: 'https://github.com/Edd0720/backend-sleep-samsung',
+    link2: 'https://github.com/HarryHndz/app-sleep-samsung',
+    description:
+      'Proyecto para calcular la calidad del sueño de una persona,utilizando un modelo de aprendizaje  y el desarrollo de una aplicación movil para la interfaz grafica.',
+    image:
+      'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
+    technologies: [
+      { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
+      { name: 'React', icon: <ReactLogo width={20} height={20} /> },
+      { name: 'Expo', icon: <Expo width={20} height={20} /> },
+      { name: 'Python', icon: <Python width={20} height={35} /> },
+      { name: 'MySQL', icon: <Mysql width={35} height={35} /> }
     ]
-  },
-] 
+  }
+];
 
-export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
+export const projectsEnglish: Omit<IPropsCard, 'language'>[] = [
   {
     key: 1,
     title: 'Ecommerce',
     link: 'https://github.com/HarryHndz/laravel-ecommerce',
     description:
       'Ecommerce website for selling products, including an admin panel to manage stores, products, categories, and orders.',
-    image:'/ecomercephp.png',
+    image: '/ecomercephp.png',
     technologies: [
-      <Php width={40} height={40} />,
-      <Laravel width={35} height={35} />,
-      <Mysql width={35} height={35} />,
-      <Html5 width={35} height={35} />,
-      <Css3 width={35} height={35} />,
-      <Javascript width={35} height={35} />,
-    ],
+      { name: 'PHP', icon: <Php width={25} height={25} /> },
+      { name: 'Laravel', icon: <Laravel width={20} height={20} /> },
+      { name: 'MySQL', icon: <Mysql width={35} height={35} /> },
+      { name: 'HTML5', icon: <Html5 width={20} height={20} /> },
+      { name: 'CSS3', icon: <Css3 width={20} height={20} /> },
+      { name: 'JavaScript', icon: <Javascript width={20} height={20} /> }
+    ]
   },
   {
     key: 2,
@@ -91,12 +97,12 @@ export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
     link: 'https://github.com/HarryHndz/proyecto-combis',
     description:
       'Website for real-time public transport visualization in the region, with an admin panel for owners and drivers.',
-    image:'/frontCombis.png',
+    image: '/frontCombis.png',
     technologies: [
-      <Typescript width={35} height={35} />,
-      <ReactLogo width={35} height={35} />,
-      <Materialui width={35} height={35} />,
-    ],
+      { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
+      { name: 'React', icon: <ReactLogo width={20} height={35} /> },
+      { name: 'Material UI', icon: <Materialui width={20} height={20} /> }
+    ]
   },
   {
     key: 3,
@@ -107,10 +113,10 @@ export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
     image:
       'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
     technologies: [
-      <Html5 width={35} height={35} />,
-      <Css3 width={35} height={35} />,
-      <Python width={35} height={35} />,
-    ],
+      { name: 'HTML5', icon: <Html5 width={20} height={20} /> },
+      { name: 'CSS3', icon: <Css3 width={20} height={20} /> },
+      { name: 'Python', icon: <Python width={20} height={20} /> }
+    ]
   },
   {
     key: 4,
@@ -122,11 +128,11 @@ export const projectsEnglish: Omit<IPropsCard,'language'>[] = [
     image:
       'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
     technologies: [
-      <Typescript width={35} height={35} />,
-      <ReactLogo width={35} height={35} />,
-      <Expo width={35} height={35} />,
-      <Python width={35} height={35} />,
-      <Mysql width={35} height={35} />,
-    ],
-  },
+      { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
+      { name: 'React', icon: <ReactLogo width={20} height={20} /> },
+      { name: 'Expo', icon: <Expo width={20} height={20} /> },
+      { name: 'Python', icon: <Python width={20} height={35} /> },
+      { name: 'MySQL', icon: <Mysql width={35} height={35} /> }
+    ]
+  }
 ];

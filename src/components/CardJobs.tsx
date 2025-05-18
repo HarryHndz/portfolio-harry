@@ -17,22 +17,24 @@ export const CardJobs = ({url,title,date,description,rol}:IPropsCardJobs)=>{
 					<p style={{
 						margin:0,
 						fontSize:'20px',
-						fontWeight:'700'
+						fontWeight:'700',
+						color:'#f9fafb'
 					}}>{title}</p>
 					<p style={{
 						margin:0,
 						fontSize:'18px',
-						fontWeight:'600'
+						fontWeight:'600',
+						color:'#f9fafb'
 					}}>{rol}</p>
 				</div>
 				<span style={{
-					color:'#C1C1C1',
+					color:'#d1d5db',
 					fontStyle:'italic'
 				}}>{date}
 				</span>
 			</div>
 			<p style={{
-					color:'#C1C1C1',
+					color:'#d1d5db',
 				}}>{description}</p>
 		</div>
 	)

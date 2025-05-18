@@ -7,7 +7,7 @@ export default function Experience() {
 	const {language} = useLanguage()
 	const jobsList = language === 'English' ? jobsEnglish : jobsSpanish
 	return(
-		<div className="container-subdata" style={{gap:'30px'}} id="experience" tabIndex={0}>
+		<div className="container-subdata" style={{gap:'30px',paddingTop:'10px'}} id="experience" tabIndex={0}>
 			<h2 className="secondary-title">{language === 'Español' ? 'Experiencia': 'Experience'}</h2>
 			{
 				jobsList.map((j)=>(
