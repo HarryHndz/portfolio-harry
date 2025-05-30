@@ -9,7 +9,7 @@ export default function Home() {
   return(
     <div className="home" id="home">
       <img 
-        src="https://c.wallhere.com/photos/ef/16/Jujutsu_Kaisen_Satoru_Gojo_breath_white_hair_blue_eyes_glowing_eyes_crowd_anime-2277402.jpg!d" 
+        src="/profile.jpg" 
         className="image-profile" 
       />
       <div className="description-profile">
