@@ -1,5 +1,4 @@
 import { IPropsCard } from "../types/IPropsCard"
-import { Expo } from "../assets/expo"
 import { Html5 } from "../assets/html"
 import { Javascript } from "../assets/javascript"
 import { Laravel } from "../assets/laravel"
@@ -59,15 +58,11 @@ export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
     key: 4,
     title: 'Calidad del sueño',
     link: 'https://github.com/Edd0720/backend-sleep-samsung',
-    link2: 'https://github.com/HarryHndz/app-sleep-samsung',
     description:
-      'Proyecto para calcular la calidad del sueño de una persona,utilizando un modelo de aprendizaje  y el desarrollo de una aplicación movil para la interfaz grafica.',
+      'Proyecto para calcular la calidad del sueño de una persona,utilizando un modelo de aprendizaje hecho con python.',
     image:
       'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
     technologies: [
-      { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
-      { name: 'React', icon: <ReactLogo width={20} height={20} /> },
-      { name: 'Expo', icon: <Expo width={20} height={20} /> },
       { name: 'Python', icon: <Python width={20} height={35} /> },
       { name: 'MySQL', icon: <Mysql width={35} height={35} /> }
     ]
@@ -122,15 +117,11 @@ export const projectsEnglish: Omit<IPropsCard, 'language'>[] = [
     key: 4,
     title: 'Sleep Quality',
     link: 'https://github.com/Edd0720/backend-sleep-samsung',
-    link2: 'https://github.com/HarryHndz/app-sleep-samsung',
     description:
-      'Project to calculate a persons sleep quality using a machine learning model and the development of a mobile application for the user interface.',
+      'Project to calculate a persons sleep quality using a machine learning model in python.',
     image:
       'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
     technologies: [
-      { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
-      { name: 'React', icon: <ReactLogo width={20} height={20} /> },
-      { name: 'Expo', icon: <Expo width={20} height={20} /> },
       { name: 'Python', icon: <Python width={20} height={35} /> },
       { name: 'MySQL', icon: <Mysql width={35} height={35} /> }
     ]

@@ -1,3 +1,4 @@
+import { Expo } from "../assets/expo";
 import { Expressjs } from "../assets/expressjs";
 import { Html5 } from "../assets/html";
 import { Laravel } from "../assets/laravel";
@@ -26,6 +27,10 @@ const technologiesUse:TTechnologies[] =[
     icon: <ReactLogo width={80} height={80} />
   },
   {
+    name: 'Expo',
+    icon: <Expo width={80} height={80} />
+  },
+  {
     name: 'TypeScript',
     icon: <Typescript width={80} height={80} />
   },
@@ -52,7 +57,7 @@ const technologiesUse:TTechnologies[] =[
   {
     name: 'MySQL',
     icon: <Mysql width={80} height={80} />
-  }
+  },
 ]
 
 
