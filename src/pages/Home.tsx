@@ -21,7 +21,7 @@ export default function Home() {
           <Button 
             text={language === 'Español' ?'Descargar cv' : 'Download cv'} 
             iconRight={<DocumentCvv width={20} height={20} />}
-            onClick={()=> window.location.href='/HarryHernandezAriasCV.docx.pdf'} 
+            onClick={()=> window.location.href='/HarryHernandezAriasCV_FullStack.pdf'} 
           />
           <Button
             iconRight={<Linkedin width={20} height={20} />}
