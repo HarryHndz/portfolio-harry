@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Harry Hernandez Arias - Software Engineer
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Software Engineer with 1 year of experience in developing cross-platform web and mobile applications. Skilled in frontend, backend, and relational databases. Strong team player with problem-solving abilities and adaptability to new tools.
 
-## Expanding the ESLint configuration
+## Experience
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### PcGil
+**FullStack Developer** (August 16, 2024 - Present)
+As a FullStack Developer at PcGil, I play a key role in maintaining and developing mobile applications for Android and iOS platforms, focused on school management, livestock management, and cargo weighing systems. I actively participate in both frontend and backend development of these projects, ensuring their proper functionality.
 
-- Configure the top-level `parserOptions` property like this:
+**BackEnd Developer** (May 16, 2024 - August 16, 2024)
+I completed a professional internship at PcGil, where I worked as a backend developer, focusing on developing a Rest API for food delivery, built in NodeJs, Express, and Prisma ORM.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Projects
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### SafePulse App
+Cross-platform web and mobile application for managing contacts and sending real-time emergency alerts to their contacts.
+**Technologies:** TypeScript, React Native, Expo, Tailwind, MQTT
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Travel Prosus Backend
+Backend of the Travel Prosus platform for travel planning, which uses artificial intelligence to create personalized experiences. Project developed by five software engineers for the Raise Your Hack hackathon on the lablab.ai platform.
+**Technologies:** Python, FastAPI, Supabase, Neo4j, WebSocket
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Public Transport Frontend
+Website for real-time public transport visualization in the region, with an admin panel for owners and drivers.
+**Technologies:** TypeScript, React, Material UI
+
+### Sleep Quality
+Project to calculate a person's sleep quality using a machine learning model in python.
+**Technologies:** Python, MySQL
+
+### Ecommerce
+Ecommerce website for selling products, including an admin panel to manage stores, products, categories, and orders.
+**Technologies:** PHP, Laravel, MySQL, HTML5, CSS3, JavaScript
+
+## Skills
+- TypeScript
+- React Native
+- Expo
+- Tailwind
+- MQTT
+- Python
+- FastAPI
+- Supabase
+- Neo4j
+- WebSocket
+- React
+- Material UI
+- MySQL
+- PHP
+- Laravel
+- HTML5
+- CSS3
+- JavaScript
