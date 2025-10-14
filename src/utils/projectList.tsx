@@ -21,6 +21,18 @@ import { WebSocket } from "../assets/websocket"
 export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
   {
     key: 1,
+    title: 'AirGuard - 2025 Nasa Space Apps Challenge',
+    link: 'https://github.com/Ivanhdz04/AirGuard',
+    description:'Proyecto ganador regional del hackatón NASA Space Apps Challenge 2025, celebrado en la Ciudad de México. El equipo, conformado por seis ingenieros de software, desarrolló una aplicación web que permite medir la calidad del aire y generar predicciones para los días siguientes, a partir de los datos proporcionados por TEMPO NASA.',
+    image: '/airguard.png',
+    technologies: [
+      { name: 'JavaScritp', icon: <Javascript width={20} height={20} /> },
+      { name: 'React', icon: <ReactLogo width={20} height={35} /> },
+      { name: 'Python', icon: <Python width={20} height={35} /> },
+    ]
+  },
+  {
+    key: 2,
     title: 'SafePulse App',
     link: 'https://github.com/HarryHndz/alert-button-app',
     description:'Aplicación multiplataforma, web y móvil, para la gestión de contactos y el envío de alertas de emergencia en tiempo real a sus contactos.',
@@ -34,7 +46,7 @@ export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
     ]
   },
   {
-    key: 2,
+    key: 3,
     title: 'Travel Prosus Backend',
     link: 'https://github.com/Rodrup9/travel-prosus/tree/dev',
     description:'Backend de la plataforma Travel Prosus para la planificación de viajes, que utiliza inteligencia artificial para crear experiencias personalizadas. Proyecto desarrollado por cinco ingenieros de software para el hackathon Raise Your Hack de la plataforma lablab.ai.',
@@ -48,7 +60,7 @@ export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
     ]
   },
   {
-    key: 3,
+    key: 4,
     title: 'Front End transporte',
     link: 'https://github.com/HarryHndz/proyecto-combis',
     description:'Sitio web para la visualización del transporte publico de la región en tiempo real, panel de admimistración para dueños y choferes.',
@@ -57,17 +69,6 @@ export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
       { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
       { name: 'React', icon: <ReactLogo width={20} height={35} /> },
       { name: 'Material UI', icon: <Materialui width={20} height={20} /> }
-    ]
-  },
-  {
-    key: 4,
-    title: 'Calidad del sueño',
-    link: 'https://github.com/Edd0720/backend-sleep-samsung',
-    description:'Proyecto para calcular la calidad del sueño de una persona,utilizando un modelo de aprendizaje hecho con python.',
-    image:'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
-    technologies: [
-      { name: 'Python', icon: <Python width={20} height={35} /> },
-      { name: 'MySQL', icon: <Mysql width={35} height={35} /> }
     ]
   },
   {
@@ -92,6 +93,18 @@ export const projectsSpanish: Omit<IPropsCard, 'language'>[] = [
 export const projectsEnglish: Omit<IPropsCard, 'language'>[] = [
   {
     key: 1,
+    title: 'AirGuard',
+    link: 'https://github.com/Ivanhdz04/AirGuard',
+    description:"Regional winning project of the NASA Space Apps Challenge 2025, held in Mexico City. The team, composed of six software engineers, developed a web application that measures air quality and generates predictions for the following days using data provided by NASA's TEMPO.",
+    image: '/airguard.png',
+    technologies: [
+      { name: 'JavaScritp', icon: <Javascript width={20} height={20} /> },
+      { name: 'React', icon: <ReactLogo width={20} height={35} /> },
+      { name: 'Python', icon: <Python width={20} height={35} /> },
+    ]
+  },
+  {
+    key: 2,
     title: 'SafePulse App',
     link: 'https://github.com/HarryHndz/alert-button-app',
     description:'Cross-platform web and mobile application for managing contacts and sending real-time emergency alerts to their contacts.',
@@ -105,7 +118,7 @@ export const projectsEnglish: Omit<IPropsCard, 'language'>[] = [
     ]
   },
   {
-    key: 2,
+    key: 3,
     title: 'Travel Prosus Backend',
     link: 'https://github.com/Rodrup9/travel-prosus/tree/dev',
     description:'Backend of the Travel Prosus platform for travel planning, which uses artificial intelligence to create personalized experiences. Project developed by five software engineers for the Raise Your Hack hackathon on the lablab.ai platform.',
@@ -119,7 +132,7 @@ export const projectsEnglish: Omit<IPropsCard, 'language'>[] = [
     ]
   },
   {
-    key: 3,
+    key: 4,
     title: 'Public Transport Frontend',
     link: 'https://github.com/HarryHndz/proyecto-combis',
     description:
@@ -129,19 +142,6 @@ export const projectsEnglish: Omit<IPropsCard, 'language'>[] = [
       { name: 'TypeScript', icon: <Typescript width={20} height={20} /> },
       { name: 'React', icon: <ReactLogo width={20} height={35} /> },
       { name: 'Material UI', icon: <Materialui width={20} height={20} /> }
-    ]
-  },
-  {
-    key: 4,
-    title: 'Sleep Quality',
-    link: 'https://github.com/Edd0720/backend-sleep-samsung',
-    description:
-      'Project to calculate a persons sleep quality using a machine learning model in python.',
-    image:
-      'https://1.bp.blogspot.com/-Ft2qnANLqjM/XvzV_3XHndI/AAAAAAAAChs/x0YYzxB4cS88fCekPWVnGZStfEJjlnznACLcBGAsYHQ/s1600/1_nIjfoUR90CUKibydNhq_Bw.jpeg',
-    technologies: [
-      { name: 'Python', icon: <Python width={20} height={35} /> },
-      { name: 'MySQL', icon: <Mysql width={35} height={35} /> }
     ]
   },
   {
