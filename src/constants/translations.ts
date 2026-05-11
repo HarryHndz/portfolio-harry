@@ -22,7 +22,7 @@ export const translations = {
       title: "Acerca de mí",
       content: "Cuento con experiencia sólida en el ecosistema JavaScript/TypeScript y Python fullstack, complementado con experiencia en bases de datos SQL con PostgreSQL y NoSQL con Firebase. He participado en proyectos gubernamentales y empresariales desarrollando plataformas web, aplicaciones móviles y módulos backend.",
       content2: "Años de experiencia" , 
-      content3: "Proyectos en vivo"   
+      content3: "Proyectos personales"   
     },
     experience: {
       title: "Experiencia Profesional",
@@ -89,16 +89,16 @@ export const translations = {
       items: [
         {
           title: "AirGuard - 2025 Nasa Space Apps Challenge",
-          description: "Proyecto ganador regional del hackatón NASA Space Apps Challenge 2025, celebrado en la Ciudad de México. El equipo, conformado por seis ingenieros de software, desarrolló una aplicación web que permite medir la calidad del aire y generar predicciones para los días siguientes, a partir de los datos proporcionados por TEMPO NASA.",
+          description: "Proyecto ganador regional del hackathon NASA Space Apps Challenge 2025, y nominado globalmente. El equipo desarrolló una aplicación web que permite medir la calidad del aire y generar predicciones para los días siguientes, a partir de los datos proporcionados por TEMPO NASA.",
           images: [
             "/airguard.png"
           ],
-          link: "https://github.com/Ivanhdz04/AirGuard",
+          link: "",
           github: "https://github.com/Ivanhdz04/AirGuard",
           technologies: ["JavaScript", "React", "Python"]
         },
         {
-          title: "NewsApp - Hackathon Google Cloud Run Hackathon",
+          title: "NewsApp - Hackatón Google Cloud Run Hackathon",
           description: "Frontend de una plataforma web que permite a los usuarios informarse si las noticias que leen son falsas o verdaderas con integración de IA con gemini.",
           images: [
             "/news-app.png"
@@ -113,7 +113,7 @@ export const translations = {
           images: [
             "/safePulse.png"
           ],
-          link: "https://github.com/HarryHndz/alert-button-app",
+          link: "",
           github: "https://github.com/HarryHndz/alert-button-app",
           technologies: ["TypeScript", "React Native", "Expo", "Tailwind CSS", "Protocolo MQTT"]
         },
@@ -123,19 +123,9 @@ export const translations = {
           images: [
             "/travelProsus.png"
           ],
-          link: "https://github.com/Rodrup9/travel-prosus/tree/dev",
+          link: "",
           github: "https://github.com/Rodrup9/travel-prosus/tree/dev",
           technologies: ["Python", "FastAPI", "Supabase", "Neo4j", "WebSocket"]
-        },
-        {
-          title: "Front End transporte",
-          description: "Sitio web para la visualización del transporte publico de la región en tiempo real, panel de admimistración para dueños y choferes.",
-          images: [
-            "/frontCombis.png"
-          ],
-          link: "https://github.com/HarryHndz/proyecto-combis",
-          github: "https://github.com/HarryHndz/proyecto-combis",
-          technologies: ["TypeScript", "React", "Material UI"]
         },
         {
           title: "Ecommerce",
@@ -143,7 +133,7 @@ export const translations = {
           images: [
             "/ecomercephp.png"
           ],
-          link: "https://github.com/HarryHndz/laravel-ecommerce",
+          link: "",
           github: "https://github.com/HarryHndz/laravel-ecommerce",
           technologies: ["PHP", "Laravel", "MySQL", "HTML5", "CSS3", "JavaScript"]
         }
@@ -173,7 +163,7 @@ export const translations = {
       title: "About Me",
       content: "I have solid experience in the JavaScript/TypeScript and Python full-stack ecosystem, complemented by experience in SQL databases with PostgreSQL and NoSQL with Firebase. I have participated in government and enterprise projects developing web platforms, mobile applications, and backend modules.",
       content2: "Years of experience",
-      content3: "Live Projects"
+      content3: "Personal Projects"
     },
     experience: {
       title: "Professional Experience",
@@ -240,11 +230,21 @@ export const translations = {
       items: [
         {
           title: "AirGuard",
-          description: "Regional winning project of the NASA Space Apps Challenge 2025, held in Mexico City. The team, composed of six software engineers, developed a web application that measures air quality and generates predictions for the following days using data provided by NASA's TEMPO.",
+          description: "Regional winning project of the NASA Space Apps Challenge 2025, and nominated globally. The team developed a web application that measures air quality and generates predictions for the following days using data provided by NASA's TEMPO.",
           images: [
             "/airguard.png"
           ],
-          link: "https://github.com/Ivanhdz04/AirGuard",
+          link: "",
+          github: "https://github.com/Ivanhdz04/AirGuard",
+          technologies: ["JavaScript", "React", "Python"]
+        },
+        {
+          title: "NewsApp - Hackatón Google Cloud Run Hackathon",
+          description: "Frontend of a web platform that allows users to find out if the news they read are false or true with integration of IA with gemini.",
+          images: [
+            "/news-app.png"
+          ],
+          link: "https://news-app-frontend-521441037803.us-central1.run.app/",
           github: "https://github.com/Ivanhdz04/AirGuard",
           technologies: ["JavaScript", "React", "Python"]
         },
@@ -254,7 +254,7 @@ export const translations = {
           images: [
             "/safePulse.png"
           ],
-          link: "https://github.com/HarryHndz/alert-button-app",
+          link: "",
           github: "https://github.com/HarryHndz/alert-button-app",
           technologies: ["TypeScript", "React Native", "Expo", "Tailwind CSS", "Protocolo MQTT"]
         },
@@ -264,19 +264,9 @@ export const translations = {
           images: [
             "/travelProsus.png"
           ],
-          link: "https://github.com/Rodrup9/travel-prosus/tree/dev",
+          link: "",
           github: "https://github.com/Rodrup9/travel-prosus/tree/dev",
           technologies: ["Python", "FastAPI", "Supabase", "Neo4j", "WebSocket"]
-        },
-        {
-          title: "Public Transport Frontend",
-          description: "Website for real-time public transport visualization in the region, with an admin panel for owners and drivers.",
-          images: [
-            "/frontCombis.png"
-          ],
-          link: "https://github.com/HarryHndz/proyecto-combis",
-          github: "https://github.com/HarryHndz/proyecto-combis",
-          technologies: ["TypeScript", "React", "Material UI"]
         },
         {
           title: "Ecommerce",
@@ -284,7 +274,7 @@ export const translations = {
           images: [
             "/ecomercephp.png"
           ],
-          link: "https://github.com/HarryHndz/laravel-ecommerce",
+          link: "",
           github: "https://github.com/HarryHndz/laravel-ecommerce",
           technologies: ["PHP", "Laravel", "MySQL", "HTML5", "CSS3", "JavaScript"]
         }

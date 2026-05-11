@@ -21,7 +21,7 @@ export const About: React.FC = () => {
              <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content2}</div>
           </div>
           <div className="bg-white/2 border border-white/5 p-8 rounded-2xl">
-             <div className="text-3xl font-display font-extrabold text-white mb-1">4+</div>
+             <div className="text-3xl font-display font-extrabold text-white mb-1">5+</div>
              <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content3}</div>
           </div>
         </div>

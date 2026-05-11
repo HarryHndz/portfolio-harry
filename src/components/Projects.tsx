@@ -46,13 +46,17 @@ export const Projects: React.FC = () => {
               <ProjectCarousel images={project.images} />
               
               <div className="mt-6 flex gap-3">
-                <a 
-                  href={project.link}
-                  className="flex-1 flex items-center justify-center gap-2 bg-white text-black py-4 text-[11px] uppercase font-bold tracking-[0.2em] hover:bg-slate-200 transition-all active:scale-95 rounded-lg"
-                >
-                  <ExternalLink size={14} />
-                  {t.projects.viewProject}
-                </a>
+                {
+                  (project.link !== "") && (
+                     <a 
+                      href={project.link}
+                      className="flex-1 flex items-center justify-center gap-2 bg-white text-black py-4 text-[11px] uppercase font-bold tracking-[0.2em] hover:bg-slate-200 transition-all active:scale-95 rounded-lg"
+                    >
+                      <ExternalLink size={14} />
+                      {t.projects.viewProject}
+                    </a>
+                  )
+                }
                 <a 
                   href={project.github}
                   className="px-6 flex items-center justify-center gap-2 bg-white/5 border border-white/10 text-white/60 py-4 text-[11px] uppercase font-bold tracking-[0.2em] hover:bg-white/10 hover:text-white transition-all active:scale-95 rounded-lg"
