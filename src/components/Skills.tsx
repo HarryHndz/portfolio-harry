@@ -63,7 +63,7 @@ export const Skills: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="bg-white/[0.02] border border-white/5 p-8 rounded-2xl"
+            className="bg-white/2 border border-white/5 p-8 rounded-2xl"
           >
             <div className="text-white/20 mb-6">
               {group.icon}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from './LanguageProvider';
 import { Section } from './Section';
-import { Award, GraduationCap, CheckCircle2 } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export const About: React.FC = () => {
@@ -16,11 +16,11 @@ export const About: React.FC = () => {
           <div className="absolute -top-px -left-px w-8 h-8 border-t border-l border-white/40 rounded-tl-2xl"></div>
         </div>
         <div className="md:col-span-4 grid grid-cols-2 md:grid-cols-1 gap-6">
-          <div className="bg-white/[0.02] border border-white/5 p-8 rounded-2xl">
+          <div className="bg-white/2 border border-white/5 p-8 rounded-2xl">
              <div className="text-3xl font-display font-extrabold text-white mb-1">1+</div>
              <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content2}</div>
           </div>
-          <div className="bg-white/[0.02] border border-white/5 p-8 rounded-2xl">
+          <div className="bg-white/2 border border-white/5 p-8 rounded-2xl">
              <div className="text-3xl font-display font-extrabold text-white mb-1">4+</div>
              <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content3}</div>
           </div>
@@ -41,12 +41,12 @@ export const EducationAndAchievements: React.FC = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-xs font-display font-bold text-white/50 uppercase mb-8 flex items-center gap-4 tracking-widest">
-           <span className="w-4 h-[1px] bg-white/20"></span>
+           <span className="w-4 h-px bg-white/20"></span>
            {t.education.title}
         </h2>
         <div className="space-y-4">
           {t.education.items.map((item, i) => (
-            <div key={i} className="bg-white/[0.02] border border-white/5 p-6 relative group hover:bg-white/[0.04] transition-colors rounded-2xl">
+            <div key={i} className="bg-white/2 border border-white/5 p-6 relative group hover:bg-white/4 transition-colors rounded-2xl">
               <div className="text-[10px] text-white/40 uppercase mb-2 tracking-widest font-medium">{item.period}</div>
               <h3 className="text-sm text-white font-bold mb-1 tracking-wide">{item.degree}</h3>
               <p className="text-[11px] font-medium text-slate-500">{item.institution}</p>
@@ -61,12 +61,12 @@ export const EducationAndAchievements: React.FC = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-xs font-display font-bold text-white/50 uppercase mb-8 flex items-center gap-4 tracking-widest">
-           <span className="w-4 h-[1px] bg-white/20"></span>
+           <span className="w-4 h-px bg-white/20"></span>
            {t.achievements.title}
         </h2>
         <div className="space-y-4">
           {t.achievements.items.map((item, i) => (
-            <div key={i} className="flex items-start gap-4 bg-white/[0.02] border border-white/5 p-6 group hover:bg-white/[0.04] transition-colors rounded-2xl">
+            <div key={i} className="flex items-start gap-4 bg-white/2 border border-white/5 p-6 group hover:bg-white/4 transition-colors rounded-2xl">
               <div className="mt-1 text-white/20 group-hover:text-white transition-colors">
                 <CheckCircle2 size={16} />
               </div>

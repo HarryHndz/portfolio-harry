@@ -18,9 +18,9 @@ export const Projects: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
-            className="group bg-white/[0.04] border border-white/5 relative overflow-hidden flex flex-col pt-8 rounded-3xl"
+            className="group bg-white/4 border border-white/5 relative overflow-hidden flex flex-col pt-8 rounded-3xl"
           >
-            <div className="px-8 mb-6 flex flex-col flex-grow">
+            <div className="px-8 mb-6 flex flex-col grow">
               <h3 className="text-xl text-white font-display font-bold mb-3 tracking-tight">
                 {project.title}
               </h3>

@@ -13,14 +13,14 @@ export const translations = {
       greeting: "Hola, soy",
       roleLabel: "Ingeniero de Software",
       roleLabel2:"Desarrollador Fullstack",
-      role: "Ingeniero en Desarrollo de Software",
+      role: "Ingeniero de Software",
       roleDescription:"enfocado como desarrollador fullstack de aplicaciones web y movil.",
       cta: "Ver Proyectos",
       cv: "Descargar CV",
     },
     about: {
       title: "Acerca de mí",
-      content: "Cuenta con experiencia sólida en el ecosistema JavaScript/TypeScript y Python fullstack, complementado con experiencia en bases de datos SQL con PostgreSQL y NoSQL con Firebase. He participado en proyectos gubernamentales y empresariales desarrollando plataformas web, aplicaciones móviles y módulos backend.",
+      content: "Cuento con experiencia sólida en el ecosistema JavaScript/TypeScript y Python fullstack, complementado con experiencia en bases de datos SQL con PostgreSQL y NoSQL con Firebase. He participado en proyectos gubernamentales y empresariales desarrollando plataformas web, aplicaciones móviles y módulos backend.",
       content2: "Años de experiencia" , 
       content3: "Proyectos en vivo"   
     },
@@ -94,6 +94,16 @@ export const translations = {
             "/airguard.png"
           ],
           link: "https://github.com/Ivanhdz04/AirGuard",
+          github: "https://github.com/Ivanhdz04/AirGuard",
+          technologies: ["JavaScript", "React", "Python"]
+        },
+        {
+          title: "NewsApp - Hackathon Google Cloud Run Hackathon",
+          description: "Frontend de una plataforma web que permite a los usuarios informarse si las noticias que leen son falsas o verdaderas con integración de IA con gemini.",
+          images: [
+            "/news-app.png"
+          ],
+          link: "https://news-app-frontend-521441037803.us-central1.run.app/",
           github: "https://github.com/Ivanhdz04/AirGuard",
           technologies: ["JavaScript", "React", "Python"]
         },

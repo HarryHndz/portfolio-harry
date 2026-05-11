@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from './LanguageProvider';
 import { motion } from 'motion/react';
-import { Github, Linkedin, Instagram, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, ArrowDown } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   const { t } = useLanguage();
@@ -47,9 +47,9 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2 }}
         >
-          <div className="aspect-[4/5] bg-white/5 border border-white/10 p-8 relative flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-700 rounded-3xl">
-             <div className="w-full h-full border border-white/10 flex items-center justify-center font-display font-bold text-white/10 text-6xl rounded-2xl">
-               PORTRAIT
+          <div className="aspect-4/5 bg-white/5 border border-white/10 p-8 relative flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-700 rounded-3xl">
+             <div className="w-full h-full border border-white/10 flex items-center justify-center rounded-2xl">
+               <img src="/profile.jpg" alt="" />
              </div>
              {/* Accent lines - updated to be more subtle dots/corners */}
              <div className="absolute -top-2 -right-2 w-16 h-16 border-t-2 border-r-2 border-white/10 rounded-tr-3xl"></div>
