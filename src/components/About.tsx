@@ -17,12 +17,12 @@ export const About: React.FC = () => {
         </div>
         <div className="md:col-span-4 grid grid-cols-2 md:grid-cols-1 gap-6">
           <div className="bg-white/[0.02] border border-white/5 p-8 rounded-2xl">
-             <div className="text-3xl font-display font-extrabold text-white mb-1">5+</div>
-             <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">Years of Experience</div>
+             <div className="text-3xl font-display font-extrabold text-white mb-1">1+</div>
+             <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content2}</div>
           </div>
           <div className="bg-white/[0.02] border border-white/5 p-8 rounded-2xl">
-             <div className="text-3xl font-display font-extrabold text-white mb-1">20+</div>
-             <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">Live Projects</div>
+             <div className="text-3xl font-display font-extrabold text-white mb-1">4+</div>
+             <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content3}</div>
           </div>
         </div>
       </div>

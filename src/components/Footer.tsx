@@ -9,23 +9,19 @@ export const Footer: React.FC = () => {
     <footer className="bg-[#0A0A0B] text-white py-12 px-6 border-t border-white/10">
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-10">
         <div className="flex gap-10">
-          <a href="#" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
+          <a href="https://github.com/HarryHndz" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
             <Github size={20} />
           </a>
-          <a href="#" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
+          <a href="https://www.linkedin.com/in/harry-hdze/" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
             <Linkedin size={20} />
           </a>
-          <a href="#" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
-            <Instagram size={20} />
-          </a>
-          <a href="mailto:hello@example.com" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
+          <a href="mailto:harry200490@gmail.com" className="p-3 text-slate-500 hover:text-white transition-all bg-white/5 border border-white/10 hover:bg-white/10 rounded-lg">
             <Mail size={20} />
           </a>
         </div>
         
         <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 text-[9px] uppercase tracking-[0.3em] text-white/20 pt-8 border-t border-white/5">
-          <span>© 2024 Juan Pérez</span>
-          <span>Built with React + TypeScript</span>
+          <span>© 2026 Harry Hernández Arias</span>
         </div>
       </div>
     </footer>

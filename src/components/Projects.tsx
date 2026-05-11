@@ -24,9 +24,22 @@ export const Projects: React.FC = () => {
               <h3 className="text-xl text-white font-display font-bold mb-3 tracking-tight">
                 {project.title}
               </h3>
-              <p className="text-[14px] text-slate-400 mb-6 leading-relaxed flex-grow font-medium">
+              <p className="text-[14px] text-slate-400 mb-6 leading-relaxed font-medium">
                 {project.description}
               </p>
+              
+              {project.technologies && (
+                <div className="flex flex-wrap gap-2 mt-auto">
+                  {project.technologies.map((tech) => (
+                    <span 
+                      key={tech} 
+                      className="px-2.5 py-1 bg-white/5 text-[10px] uppercase tracking-wider text-slate-300 border border-white/5 hover:border-white/20 transition-colors cursor-default rounded-md font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
 
             <div className="px-6 pb-6 mt-auto">

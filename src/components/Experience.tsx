@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from './LanguageProvider';
 import { Section } from './Section';
-import { Briefcase, Calendar } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export const Experience: React.FC = () => {

@@ -20,7 +20,6 @@ export const Navbar: React.FC = () => {
     { name: t.nav.about, href: "#about" },
     { name: t.nav.experience, href: "#experience" },
     { name: t.nav.education, href: "#education" },
-    { name: t.nav.achievements, href: "#achievements" },
     { name: t.nav.skills, href: "#skills" },
     { name: t.nav.projects, href: "#projects" },
   ];
@@ -36,7 +35,7 @@ export const Navbar: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          Juan Pérez
+          Harry.dev
         </motion.a>
 
         {/* Desktop Menu */}

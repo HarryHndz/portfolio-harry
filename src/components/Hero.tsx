@@ -16,14 +16,15 @@ export const Hero: React.FC = () => {
         >
           <div className="flex items-center gap-4 mb-6">
             <span className="px-3 py-1 bg-white/5 border border-white/10 text-[10px] uppercase tracking-widest text-slate-400 rounded-lg">
-              Software Engineer
+              {t.hero.roleLabel}
             </span>
           </div>
+          
           <h1 className="text-6xl md:text-8xl font-display font-extrabold text-white tracking-tight mb-8">
             Harry Hernández Arias
           </h1>
           <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-lg leading-relaxed font-light">
-            {t.hero.role}. Passionate about building scalable architectures and refined user experiences.
+            {t.hero.role}, {t.hero.roleDescription}
           </p>
           
           <div className="flex flex-wrap gap-8 items-center">
@@ -34,9 +35,8 @@ export const Hero: React.FC = () => {
               {t.hero.cta}
             </a>
             <div className="flex gap-6 items-center">
-              <a href="#" className="text-slate-500 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"><Github size={22} /></a>
-              <a href="#" className="text-slate-500 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"><Linkedin size={22} /></a>
-              <a href="#" className="text-slate-500 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"><Instagram size={22} /></a>
+              <a href="https://github.com/HarryHndz" className="text-slate-500 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"><Github size={22} /></a>
+              <a href="https://www.linkedin.com/in/harry-hdze/" className="text-slate-500 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"><Linkedin size={22} /></a>
             </div>
           </div>
         </motion.div>
