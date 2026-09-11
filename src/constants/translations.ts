@@ -12,38 +12,51 @@ export const translations = {
     hero: {
       greeting: "Hola, soy",
       roleLabel: "Ingeniero de Software",
-      roleLabel2:"Desarrollador Fullstack",
+      roleLabel2: "Desarrollador Fullstack",
       role: "Ingeniero de Software",
-      roleDescription:"enfocado como desarrollador fullstack de aplicaciones web y movil.",
+      roleDescription: "con experiencia fullstack en gobierno y sector privado, orientado a sistemas con LLM, RAG y agentes sobre AWS Bedrock y Grok.",
       cta: "Ver Proyectos",
       cv: "Descargar CV",
+      cvFile: "/HarryHernandezArias_CV_ESP.pdf",
     },
     about: {
       title: "Acerca de mí",
-      content: "Cuento con experiencia sólida en el ecosistema JavaScript/TypeScript y Python fullstack, complementado con experiencia en bases de datos SQL con PostgreSQL y NoSQL con Firebase. He participado en proyectos gubernamentales y empresariales desarrollando plataformas web, aplicaciones móviles y módulos backend.",
-      content2: "Años de experiencia" , 
-      content3: "Proyectos personales"   
+      content: "Ingeniero en Desarrollo y Gestión de Software con experiencia fullstack en los sectores gobierno y privado: sistemas multiplataforma, integración de sistemas, APIs/backend y módulos de analítica. Trabajo con AWS, Firebase, Python (FastAPI), SQL (PostgreSQL/MySQL) y el ecosistema JavaScript/TypeScript en React, Node.js y NestJS. He orientado mi perfil hacia sistemas basados en LLM, diseño de prompts, arquitecturas RAG y agentes.",
+      content2: "Años de experiencia",
+      content3: "Proyectos personales"
     },
     experience: {
       title: "Experiencia Profesional",
       items: [
         {
-          company: "Secretaria de Gubernatura Tabasco",
-          role: "Desarrollador Fullstack",
-          period: "Diciembre 2025 - Abril 2026",
-          description: "Desarrollo de unaplataforma web para la gestión y monitoreo de indicadores gubernamentales del Estado de Tabasco. Adicionalmente, participé en el análisis y procesamiento de datos para la creación de dashboards interactivos en Power BI, facilitando la visualización de la información.",
+          company: "Tribunal de Justicia Administrativa de Tabasco",
+          role: "Ingeniero de Software",
+          period: "Mayo 2026 - Actualidad",
+          description: "Adapté e integré el sistema de juicios en línea de la CDMX al Tribunal de Tabasco, normalizando el modelo de datos y los catálogos documentales, lo que automatizó el flujo judicial de 5 salas unitarias. Construí un módulo centralizado de analítica e informes con SQL sobre PostgreSQL, unificando el seguimiento operativo y reduciendo el tiempo de reportes en Excel.",
         },
         {
-          company: "PCGIL (Productos de Computo Gil )",
+          company: "XpectreLabs — YogoApp (freelance)",
+          role: "Backend Developer / Fullstack",
+          period: "Diciembre 2025 - Julio 2026",
+          description: "Diseñé y construí el backend de una app de transporte en NestJS, TypeScript y Firestore: API REST modular, autenticación y roles, verificación de conductores, membresías con Pub/Sub, Firebase y notificaciones push. Desplegué la infraestructura en AWS Lightsail, la landing en S3, y apoyé las apps móviles de conductores y pasajeros en React Native.",
+        },
+        {
+          company: "Secretaría de Gubernatura del Estado de Tabasco",
+          role: "Desarrollador Fullstack",
+          period: "Diciembre 2025 - Abril 2026",
+          description: "Desarrollé una plataforma de gestión y monitoreo de indicadores de gobierno con dashboards, consolidando datos de 9 dependencias. Construida con TypeScript, Angular, Express.js y PostgreSQL. Traduje requerimientos de áreas no técnicas en especificaciones y modelos de datos, reduciendo el retrabajo por ambigüedad.",
+        },
+        {
+          company: "Productos de Cómputo Gil (PCGIL)",
           role: "Desarrollador Fullstack",
           period: "Agosto 2024 - Noviembre 2025",
-          description: "Lideré el soporte y despliegue de actualizaciones para las apps ScolarSoft y ScolarSoft Black, a la par que participé en el desarrollo de una plataforma de gestión ganadera multiplataforma (React, React Native, Expo), enfocándome en la integración integral de servicios, APIs y funcionalidades clave.",
+          description: "Lideré el soporte, mantenimiento y despliegue de actualizaciones de ScolarSoft y ScolarSoft Black, reduciendo el tiempo medio de resolución de incidencias. Desarrollé una app multiplataforma de gestión ganadera con React, React Native y Expo (11 módulos, frontend, backend y pruebas de integración) e integré APIs REST en dos backends Node.js/Express.",
         },
-         {
-          company: "PCGIL (Productos de Computo Gil )",
-          role: "Desarrollador Frontend Practicante",
+        {
+          company: "Productos de Cómputo Gil (PCGIL)",
+          role: "Desarrollador Frontend (Prácticas profesionales)",
           period: "Mayo 2024 - Agosto 2024",
-          description: "Participé en el ciclo de desarrollo de aplicaciones internas, abarcando desde el diseño de interfaces UI/UX en Figma hasta el desarrollo de componentes interactivos para el frontend web y móvil utilizando React Native y Expo.",
+          description: "Diseñé en Figma interfaces responsivas para una aplicación interna y construí componentes reutilizables para frontends web con React.",
         }
       ]
     },
@@ -52,17 +65,22 @@ export const translations = {
       items: [
         {
           institution: "Universidad Tecnológica de Tabasco",
-          degree: "Ingeniería en Desarrollo y Gestión de Software",
+          degree: "Ingeniería en Desarrollo y Gestión de Software Multiplataforma",
           period: "Septiembre 2022 - Abril 2026",
         },
         {
-          institution: "Curso Samsung Innovation Campus 2023/ Universidad de Monterrey",
-          degree: "Certificado en Internet de las Cosas (IoT)/python",
+          institution: "Anthropic Claude Partner Network",
+          degree: "Agent Skills, Building with the Claude API, Model Context Protocol y Claude Code in Action",
+          period: "Mayo 2026 - Junio 2026",
+        },
+        {
+          institution: "Samsung Innovation Campus / Universidad de Monterrey",
+          degree: "Internet de las Cosas (IoT) e Inteligencia Artificial con Python",
           period: "Octubre 2023 - Marzo 2024",
         },
-         {
-          institution: "Oracle Next Education/Alura Latam",
-          degree: "Curso de backend, base de datos y ciencia de datos en línea",
+        {
+          institution: "Oracle Next Education / Alura Latam",
+          degree: "Backend y análisis de datos",
           period: "Marzo 2023 - Septiembre 2023",
         }
       ]
@@ -70,7 +88,9 @@ export const translations = {
     achievements: {
       title: "Logros",
       items: [
-        "Reconocido como Nominados Globales en el NASA International Space Apps Challenge 2025, siendo seleccionado entre más de 1,290 equipos nominados a nivel mundial.",
+        "NASA International Space Apps Challenge 2025 — Global Nominee, seleccionado entre más de 1,290 equipos nominados a nivel mundial por un sistema de calidad del aire con datos de observación terrestre de la NASA para Ciudad de México y Los Ángeles.",
+        "Construí agentes de IA para planificación de viajes e identificación de noticias falsas sobre AWS Bedrock y Grok en los hackathones de Google Cloud Run y Lablab.ai, con prompts de sistema, salidas JSON estructuradas y guardrails de entrada/salida.",
+        "Organizador y líder del AWS User Group Cárdenas (Tabasco, México).",
       ]
     },
     skills: {
@@ -88,8 +108,8 @@ export const translations = {
       viewGithub: "GitHub",
       items: [
         {
-          title: "AirGuard - 2025 Nasa Space Apps Challenge",
-          description: "Proyecto ganador regional del hackathon NASA Space Apps Challenge 2025, y nominado globalmente. El equipo desarrolló una aplicación web que permite medir la calidad del aire y generar predicciones para los días siguientes, a partir de los datos proporcionados por TEMPO NASA.",
+          title: "AirGuard — NASA Space Apps Challenge 2025",
+          description: "Proyecto Global Nominee del NASA International Space Apps Challenge 2025. Sistema para comprender datos complejos de calidad del aire con observaciones de la NASA y otras fuentes: visualizaciones, pronósticos y recomendaciones de salud para Ciudad de México y Los Ángeles.",
           images: [
             "/airguard.png"
           ],
@@ -98,14 +118,14 @@ export const translations = {
           technologies: ["JavaScript", "React", "Python"]
         },
         {
-          title: "NewsApp - Hackatón Google Cloud Run Hackathon",
-          description: "Frontend de una plataforma web que permite a los usuarios informarse si las noticias que leen son falsas o verdaderas con integración de IA con gemini.",
+          title: "NewsApp — Google Cloud Run Hackathon",
+          description: "Agente de IA para identificar noticias falsas, con frontend web e integración de Grok/Gemini. Diseñé prompts de sistema, salidas JSON estructuradas y guardrails de entrada/salida bajo restricciones de tiempo de hackathón.",
           images: [
             "/news-app.png"
           ],
           link: "https://news-app-frontend-521441037803.us-central1.run.app/",
           github: "https://github.com/Ivanhdz04/AirGuard",
-          technologies: ["JavaScript", "React", "Python"]
+          technologies: ["JavaScript", "React", "Python", "Grok"]
         },
         {
           title: "SafePulse App",
@@ -115,21 +135,21 @@ export const translations = {
           ],
           link: "",
           github: "https://github.com/HarryHndz/alert-button-app",
-          technologies: ["TypeScript", "React Native", "Expo", "Tailwind CSS", "Protocolo MQTT"]
+          technologies: ["TypeScript", "React Native", "Expo", "Tailwind CSS", "MQTT"]
         },
         {
           title: "Travel Prosus Backend",
-          description: "Backend de la plataforma Travel Prosus para la planificación de viajes, que utiliza inteligencia artificial para crear experiencias personalizadas. Proyecto desarrollado por cinco ingenieros de software para el hackathon Raise Your Hack de la plataforma lablab.ai.",
+          description: "Backend de planificación de viajes con agentes de IA sobre AWS Bedrock y Grok. Proyecto de cinco ingenieros para el hackathon Raise Your Hack de Lablab.ai, con prompts de sistema, salidas estructuradas y guardrails.",
           images: [
             "/travelProsus.png"
           ],
           link: "",
           github: "https://github.com/Rodrup9/travel-prosus/tree/dev",
-          technologies: ["Python", "FastAPI", "Supabase", "Neo4j", "WebSocket"]
+          technologies: ["Python", "FastAPI", "Supabase", "Neo4j", "AWS Bedrock"]
         },
         {
           title: "Ecommerce",
-          description: "Sitio web ecommerce para la venta de productos; con un panel de administración para el alta de tiendas, productos, categorias y pedidos.",
+          description: "Sitio web ecommerce para la venta de productos, con un panel de administración para el alta de tiendas, productos, categorías y pedidos.",
           images: [
             "/ecomercephp.png"
           ],
@@ -153,15 +173,16 @@ export const translations = {
     hero: {
       greeting: "Hi, I'm",
       roleLabel: "Software Engineer",
-      roleLabel2:"Fullstack Developer",
-      role: "Software Development Engineer",
-      roleDescription:"focused as a fullstack developer of web and mobile applications",
+      roleLabel2: "Fullstack Developer",
+      role: "Software Engineer",
+      roleDescription: "with fullstack experience in government and private sectors, focused on LLM systems, RAG architectures, and agents on AWS Bedrock and Grok.",
       cta: "View Projects",
       cv: "Download CV",
+      cvFile: "/HarryHernandezArias_CV_ENG.pdf",
     },
     about: {
       title: "About Me",
-      content: "I have solid experience in the JavaScript/TypeScript and Python full-stack ecosystem, complemented by experience in SQL databases with PostgreSQL and NoSQL with Firebase. I have participated in government and enterprise projects developing web platforms, mobile applications, and backend modules.",
+      content: "Software Engineer with fullstack experience in the government and private sectors, building cross-platform systems, system integrations, APIs/backend services, and data analytics modules. I work with AWS, Firebase, Python (FastAPI), SQL (PostgreSQL/MySQL), and the JavaScript/TypeScript ecosystem in React, Node.js, and NestJS. I have focused my profile on LLM-based systems, prompt design, RAG architectures, and agents.",
       content2: "Years of experience",
       content3: "Personal Projects"
     },
@@ -169,22 +190,34 @@ export const translations = {
       title: "Professional Experience",
       items: [
         {
-          company: "Secretaria de Gubernatura Tabasco",
+          company: "Tribunal de Justicia Administrativa de Tabasco",
+          role: "Software Engineer",
+          period: "May 2026 - Present",
+          description: "Adapted and integrated Mexico City's online court filing system for the Tabasco Court, normalizing the data model and document catalogs across both institutions and automating the judicial workflow of 5 unitary chambers. Built a centralized analytics and reporting module with optimized SQL on PostgreSQL, unifying operational tracking and reducing time spent on Excel reports.",
+        },
+        {
+          company: "XpectreLabs — YogoApp (freelance)",
+          role: "Backend Developer / Fullstack",
+          period: "December 2025 - July 2026",
+          description: "Designed and built the complete backend of a ride-hailing app in NestJS, TypeScript, and Firestore: modular REST API, authentication and roles, driver verification, paid memberships with Pub/Sub, Firebase, and push notifications. Deployed infrastructure on AWS Lightsail, hosted the landing on S3, and supported driver and passenger mobile apps in React Native.",
+        },
+        {
+          company: "Secretaría de Gubernatura del Estado de Tabasco",
           role: "Fullstack Developer",
           period: "December 2025 - April 2026",
-          description: "Development of a web platform for the management and monitoring of government indicators for the State of Tabasco. Additionally, I participated in data analysis and processing to create interactive dashboards in Power BI, facilitating information visualization.",
+          description: "Developed a government indicator management and monitoring platform with dashboards, consolidating data from 9 agencies. Built with TypeScript, Angular, Express.js, and PostgreSQL. Translated non-technical requirements into functional specifications and scalable data models, reducing rework caused by ambiguity.",
         },
         {
-          company: "PCGIL (Productos de Computo Gil )",
+          company: "Productos de Cómputo Gil (PCGIL)",
           role: "Fullstack Developer",
           period: "August 2024 - November 2025",
-          description: "Led the support and deployment of updates for the ScolarSoft and ScolarSoft Black apps, while also participating in the development of a cross-platform livestock management platform (React, React Native, Expo), focusing on the comprehensive integration of services, APIs, and key functionalities.",
+          description: "Led support, maintenance, and rollout of updates for ScolarSoft and ScolarSoft Black, reducing mean time to resolution. Developed a cross-platform livestock management app with React, React Native, and Expo (11 modules including frontend, backend, and integration tests) and integrated REST APIs into two Node.js/Express backends.",
         },
         {
-          company: "PCGIL (Productos de Computo Gil )",
-          role: "Frontend Developer Intern",
+          company: "Productos de Cómputo Gil (PCGIL)",
+          role: "Frontend Developer (Internship)",
           period: "May 2024 - August 2024",
-          description: "Participated in the development cycle of internal applications, ranging from UI/UX interface design in Figma to the development of interactive components for web and mobile frontend using React Native and Expo.",
+          description: "Designed responsive, high-performance interfaces in Figma for an internal application and built reusable React components for web frontends.",
         }
       ]
     },
@@ -193,17 +226,22 @@ export const translations = {
       items: [
         {
           institution: "Universidad Tecnológica de Tabasco",
-          degree: "Software Development and Management Engineering",
+          degree: "Engineering Degree in Cross-Platform Software Development and Management",
           period: "September 2022 - April 2026",
         },
         {
-          institution: "Samsung Innovation Campus Course 2023/ Universidad de Monterrey",
-          degree: "Certificate in Internet of Things (IoT)/python",
+          institution: "Anthropic Claude Partner Network",
+          degree: "Agent Skills, Building with the Claude API, Model Context Protocol, and Claude Code in Action",
+          period: "May 2026 - June 2026",
+        },
+        {
+          institution: "Samsung Innovation Campus / Universidad de Monterrey",
+          degree: "Internet of Things (IoT) and Artificial Intelligence with Python",
           period: "October 2023 - March 2024",
         },
         {
-          institution: "Oracle Next Education/Alura Latam",
-          degree: "Online backend, database, and data science course",
+          institution: "Oracle Next Education / Alura Latam",
+          degree: "Backend and data analysis",
           period: "March 2023 - September 2023",
         }
       ]
@@ -211,7 +249,9 @@ export const translations = {
     achievements: {
       title: "Achievements",
       items: [
-        "Selected as Global Nominees in the NASA International Space Apps Challenge 2025, being chosen from more than 1,290 nominated teams worldwide.",
+        "NASA International Space Apps Challenge 2025 — Global Nominee, selected among more than 1,290 nominated teams worldwide for an air quality system using NASA Earth observation data for Mexico City and Los Angeles.",
+        "Built AI agents for trip planning and fake news detection on AWS Bedrock and Grok at the Google Cloud Run and Lablab.ai hackathons, with system prompts, structured JSON outputs, and input/output guardrails.",
+        "Organizer and lead of the AWS User Group Cárdenas (Tabasco, Mexico).",
       ]
     },
     skills: {
@@ -229,8 +269,8 @@ export const translations = {
       viewGithub: "GitHub",
       items: [
         {
-          title: "AirGuard",
-          description: "Regional winning project of the NASA Space Apps Challenge 2025, and nominated globally. The team developed a web application that measures air quality and generates predictions for the following days using data provided by NASA's TEMPO.",
+          title: "AirGuard — NASA Space Apps Challenge 2025",
+          description: "Global Nominee project of the NASA International Space Apps Challenge 2025. A system to make complex air quality data easier to understand using NASA Earth observation data: visualizations, forecasts, and health recommendations for Mexico City and Los Angeles.",
           images: [
             "/airguard.png"
           ],
@@ -239,14 +279,14 @@ export const translations = {
           technologies: ["JavaScript", "React", "Python"]
         },
         {
-          title: "NewsApp - Hackatón Google Cloud Run Hackathon",
-          description: "Frontend of a web platform that allows users to find out if the news they read are false or true with integration of IA with gemini.",
+          title: "NewsApp — Google Cloud Run Hackathon",
+          description: "AI agent for fake news detection, with a web frontend and Grok/Gemini integration. Designed system prompts, structured JSON outputs, and input/output guardrails under hackathon time constraints.",
           images: [
             "/news-app.png"
           ],
           link: "https://news-app-frontend-521441037803.us-central1.run.app/",
           github: "https://github.com/Ivanhdz04/AirGuard",
-          technologies: ["JavaScript", "React", "Python"]
+          technologies: ["JavaScript", "React", "Python", "Grok"]
         },
         {
           title: "SafePulse App",
@@ -256,17 +296,17 @@ export const translations = {
           ],
           link: "",
           github: "https://github.com/HarryHndz/alert-button-app",
-          technologies: ["TypeScript", "React Native", "Expo", "Tailwind CSS", "Protocolo MQTT"]
+          technologies: ["TypeScript", "React Native", "Expo", "Tailwind CSS", "MQTT"]
         },
         {
           title: "Travel Prosus Backend",
-          description: "Backend of the Travel Prosus platform for travel planning, which uses artificial intelligence to create personalized experiences. Project developed by five software engineers for the Raise Your Hack hackathon on the lablab.ai platform.",
+          description: "Travel planning backend with AI agents on AWS Bedrock and Grok. Built by five software engineers for the Raise Your Hack hackathon on Lablab.ai, with system prompts, structured outputs, and guardrails.",
           images: [
             "/travelProsus.png"
           ],
           link: "",
           github: "https://github.com/Rodrup9/travel-prosus/tree/dev",
-          technologies: ["Python", "FastAPI", "Supabase", "Neo4j", "WebSocket"]
+          technologies: ["Python", "FastAPI", "Supabase", "Neo4j", "AWS Bedrock"]
         },
         {
           title: "Ecommerce",

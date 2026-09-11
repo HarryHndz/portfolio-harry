@@ -64,7 +64,8 @@ export const Navbar: React.FC = () => {
             </button>
           </div>
           <a 
-            href="#" 
+            href={t.hero.cvFile}
+            download
             className="px-6 py-2.5 bg-white text-black text-[11px] font-bold uppercase tracking-widest hover:bg-slate-200 transition-colors rounded-lg"
           >
             {t.hero.cv}
@@ -110,7 +111,8 @@ export const Navbar: React.FC = () => {
                 </a>
               ))}
               <a 
-                href="#" 
+                href={t.hero.cvFile}
+                download
                 className="flex items-center justify-center gap-2 bg-white text-black p-4 text-[11px] font-bold uppercase tracking-widest mt-2 rounded-lg"
               >
                 {t.hero.cv}

@@ -17,7 +17,7 @@ export const About: React.FC = () => {
         </div>
         <div className="md:col-span-4 grid grid-cols-2 md:grid-cols-1 gap-6">
           <div className="bg-white/2 border border-white/5 p-8 rounded-2xl">
-             <div className="text-3xl font-display font-extrabold text-white mb-1">1+</div>
+             <div className="text-3xl font-display font-extrabold text-white mb-1">2+</div>
              <div className="text-[9px] uppercase tracking-[0.2em] text-slate-500">{t.about.content2}</div>
           </div>
           <div className="bg-white/2 border border-white/5 p-8 rounded-2xl">
@@ -34,7 +34,7 @@ export const EducationAndAchievements: React.FC = () => {
   const { t } = useLanguage();
   
   return (
-    <div className="grid lg:grid-cols-2 gap-12 max-w-7xl mx-auto px-6 py-20">
+    <div id="education" className="grid lg:grid-cols-2 gap-12 max-w-7xl mx-auto px-6 py-20 scroll-mt-20">
       <motion.div
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}

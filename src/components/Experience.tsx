@@ -18,14 +18,14 @@ export const Experience: React.FC = () => {
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
           >
-            <div className="bg-white/[0.02] border border-white/5 p-8 hover:bg-white/[0.04] transition-all relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-6 rounded-2xl">
-              <div className="relative z-10">
+            <div className="bg-white/[0.02] border border-white/5 p-8 hover:bg-white/[0.04] transition-all relative overflow-hidden flex flex-col md:flex-row md:items-start justify-between gap-6 rounded-2xl">
+              <div className="relative z-10 md:w-2/5 shrink-0">
                 <p className="text-[10px] text-white/40 uppercase mb-2 tracking-[0.2em] font-medium">{item.period}</p>
                 <h3 className="text-xl text-white font-display font-bold mb-1">{item.role}</h3>
                 <p className="text-sm text-slate-500 font-semibold">{item.company}</p>
               </div>
               
-              <div className="relative z-10 max-w-md">
+              <div className="relative z-10 md:w-3/5">
                 <p className="text-slate-400 text-sm leading-relaxed font-medium">
                   {item.description}
                 </p>

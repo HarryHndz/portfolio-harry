@@ -17,7 +17,7 @@ export const Skills: React.FC = () => {
         { name: "TypeScript", icon: <img src="/mecanografiado.png" alt="TypeScript" className="w-4 h-4 mr-1.5" /> },
         { name: "JavaScript", icon: <img src="/js.png" alt="JavaScript" className="w-4 h-4 mr-1.5" /> },
         { name: "Python", icon: <img src="/piton.png" alt="Python" className="w-4 h-4 mr-1.5" /> },
-        { name: "PHP", icon: <img src="/icons8-php-96.png" alt="PHP" className="w-4 h-4 mr-1.5" /> },
+        { name: "SQL", icon: defaultIcon },
       ]
     },
     {
@@ -26,29 +26,33 @@ export const Skills: React.FC = () => {
       skills: [
         { name: "React", icon: <img src="/icons8-reaccionar-96.png" alt="React" className="w-4 h-4 mr-1.5" /> },
         { name: "Next.js", icon: defaultIcon },
+        { name: "React Native", icon: <img src="/icons8-reaccionar-96.png" alt="React Native" className="w-4 h-4 mr-1.5" /> },
+        { name: "Expo", icon: defaultIcon },
         { name: "Angular", icon: <img src="/icons8-angular-96.png" alt="Angular" className="w-4 h-4 mr-1.5" /> },
         { name: "Tailwind CSS", icon: <img src="/icons8-viento-de-cola-96.png" alt="Tailwind CSS" className="w-4 h-4 mr-1.5" /> },
-        { name: "Redux", icon: <img src="/icons8-redux-96.png" alt="Redux" className="w-4 h-4 mr-1.5" /> }
       ]
     },
     {
       title: t.skills.categories.backend,
       icon: <Database className="text-indigo-600" />,
       skills: [
+        { name: "Node.js", icon: <img src="/icons8-nodejs-96.png" alt="Node.js" className="w-4 h-4 mr-1.5" /> },
         { name: "Express", icon: <img src="/icons8-expresar-js-100.png" alt="Express" className="w-4 h-4 mr-1.5" /> },
-        { name: "Nest.js", icon: <img src="/icons-nestjs.png" alt="Nest.js" className="w-4 h-4 mr-1.5" /> },
-        { name: "Laravel", icon: <img src="/icons8-laravel-96.png" alt="Laravel" className="w-4 h-4 mr-1.5" /> },
+        { name: "NestJS", icon: <img src="/icons-nestjs.png" alt="NestJS" className="w-4 h-4 mr-1.5" /> },
+        { name: "FastAPI", icon: <img src="/piton.png" alt="FastAPI" className="w-4 h-4 mr-1.5" /> },
         { name: "PostgreSQL", icon: <img src="/icons8-postgresql-96.png" alt="PostgreSQL" className="w-4 h-4 mr-1.5" /> },
-        { name: "Redis", icon: <img src="/icons-redis.png" alt="Redis" className="w-4 h-4 mr-1.5" /> }
+        { name: "Firebase", icon: <img src="/icons8-firebase-96.png" alt="Firebase" className="w-4 h-4 mr-1.5" /> },
       ]
     },
     {
       title: t.skills.categories.tools,
       icon: <Code2 className="text-indigo-600" />,
       skills: [
-        { name: "Docker", icon: <img src="/icons8-estibador-96.png" alt="Docker" className="w-4 h-4 mr-1.5" /> },
         { name: "AWS", icon: <img src="/icons8-amazon-web-services-96.png" alt="AWS" className="w-4 h-4 mr-1.5" /> },
-        { name: "Firebase", icon: <img src="/icons8-firebase-96.png" alt="Firebase" className="w-4 h-4 mr-1.5" /> }
+        { name: "Docker", icon: <img src="/icons8-estibador-96.png" alt="Docker" className="w-4 h-4 mr-1.5" /> },
+        { name: "GitHub", icon: defaultIcon },
+        { name: "Cursor", icon: defaultIcon },
+        { name: "Claude Code", icon: defaultIcon },
       ]
     }
   ];
